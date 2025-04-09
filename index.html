@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<a href="https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg?auto=compress&cs=tinysrgb&w=600">
+    <img src="pexels-image.jpg" alt="Click to visit example" width="200">
+  </a>
+  <ol type="i">
+    <Li>
+        Patient's Name
+    </Li>
+    <li>Patient's Surname</li>
+    <li>Patient's Age</li>
+  </ol>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <caption>Contacts</caption>
+    <thead>
+        <tr>
+            <th>NAME</th>
+            <th>ADDRESS</th>
+            <th>MOBILE</th>
+            <th>EMAIL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Wild</td>
+            <td>12345678</td>
+            <td>John@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>123 Life</td>
+            <td>87654321</td>
+            <td>Jane@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Wilson K</td>
+            <td>321 Kingdom</td>
+            <td>18273645</td>
+            <td>Wilson@gmail.com</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <form action="#" method="POST">
+    <!-- Name Field -->
+    <label for="name">Full Name *</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+    <!-- Email Field -->
+    <label for="email">Email Address *</label>
+    <input type="email" id="email" name="email" placeholder="Enter a valid email" required>
+
+    <!-- Password Field -->
+    <label for="password">Password *</label>
+    <input type="password" id="password" name="password" placeholder="Choose a secure password" minlength="6" required>
+
+    <!-- Date Field -->
+    <label for="dob">Date of Birth *</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <label for="country">Country *</label>
+    <select id="country" name="country" required>
+        <option value="">-- Select your country --</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+        <option value="rwanda">Rwanda</option>
+    </select>
+
+    <div class="radio-group">
+        <label>Gender *</label><br>
+        <label><input type="radio" name="gender" value="female" required> Female</label>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+    </div>
+
+    <div class="checkbox-group">
+        <label>Interests (select at least one):</label><br>
+        <label><input type="checkbox" name="interests" value="tech"> Tech</label>
+        <label><input type="checkbox" name="interests" value="sports"> Sports</label>
+        <label><input type="checkbox" name="interests" value="music"> Music</label>
+        <label><input type="checkbox" name="interests" value="reading"> Reading</label>
+    </div>
+
+    <input type="submit" value="Register">
+</form>
+
+
+</body>
+  
